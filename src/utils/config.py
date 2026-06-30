@@ -1,5 +1,8 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
 
 # Project root - three levels up from this file (src/utils/config.py -> src/utils -> src -> root)
 BASE_DIR = Path(__file__).resolve().parents[2]

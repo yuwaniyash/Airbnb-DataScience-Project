@@ -8,8 +8,11 @@ from dotenv import load_dotenv
 import pandas as pd
 from sqlalchemy import create_engine, text
 
-from src.utils.config import RAW_DATA_DIR, DB_CONFIG, CITY, METADATA_TABLE
+from src.utils.config import RAW_DATA_DIR, CITY, METADATA_TABLE
+from src.utils.db import get_engine
 from src.utils.logger import get_logger
+
+
 
 logger = get_logger("ingest")
 
@@ -23,13 +26,6 @@ TABLE_MAP = {
     "neighbourhoods.geojson": "neighbourhoods_geo",
 }
 
-
-def get_engine():
-    url = (
-        f"postgresql+psycopg2://{DB_CONFIG['user']}:{DB_CONFIG['password']}"
-        f"@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['dbname']}"
-    )
-    return create_engine(url)
 
 
 def retry(func, *args, attempts=3, delay=2, **kwargs):
