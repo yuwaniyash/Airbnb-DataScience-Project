@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: vaud_postgres
+    environment:
+      POSTGRES_USER: vaud_user
+      POSTGRES_PASSWORD: vaud_pass
+      POSTGRES_DB: vaud_airbnb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

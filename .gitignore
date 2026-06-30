@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables / secrets
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Data files (large, re-downloadable from Inside Airbnb)
+data/raw files/
+data/processed/
+data/outputs/
+
+# Logs
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+.history/
