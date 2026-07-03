@@ -1,3 +1,8 @@
-python-dotenv
 thefuzz
 python-Levenshtein
+streamlit>=1.35
+pandas>=2.0
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+plotly>=5.20

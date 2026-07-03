@@ -1,0 +1,289 @@
+{
+  "room_type_breakdown": [
+    {
+      "room_type": "entire home/apt",
+      "n": 3827
+    },
+    {
+      "room_type": "private room",
+      "n": 1392
+    },
+    {
+      "room_type": "shared room",
+      "n": 18
+    },
+    {
+      "room_type": "hotel room",
+      "n": 12
+    }
+  ],
+  "price_stats": {
+    "mean": 198.57,
+    "median": 159.0,
+    "std": 192.24,
+    "min": 0.02,
+    "max": 1954.5
+  },
+  "top_neighbourhoods": [
+    {
+      "neighbourhood": "Lausanne",
+      "listings": 1278,
+      "avg_price": 131.9
+    },
+    {
+      "neighbourhood": "Ollon",
+      "listings": 412,
+      "avg_price": 295.0
+    },
+    {
+      "neighbourhood": "Montreux",
+      "listings": 359,
+      "avg_price": 276.8
+    },
+    {
+      "neighbourhood": "Gryon",
+      "listings": 240,
+      "avg_price": 288.1
+    },
+    {
+      "neighbourhood": "Leysin",
+      "listings": 202,
+      "avg_price": 241.2
+    },
+    {
+      "neighbourhood": "Ormont-Dessus",
+      "listings": 136,
+      "avg_price": 304.1
+    },
+    {
+      "neighbourhood": "Ch\u00e2teau-D'Oex",
+      "listings": 118,
+      "avg_price": 352.6
+    },
+    {
+      "neighbourhood": "Ormont-Dessous",
+      "listings": 107,
+      "avg_price": 186.7
+    },
+    {
+      "neighbourhood": "Vevey",
+      "listings": 97,
+      "avg_price": 172.2
+    },
+    {
+      "neighbourhood": "Renens (Vaud)",
+      "listings": 92,
+      "avg_price": 148.9
+    },
+    {
+      "neighbourhood": "Nyon",
+      "listings": 85,
+      "avg_price": 100.5
+    },
+    {
+      "neighbourhood": "Lutry",
+      "listings": 84,
+      "avg_price": 225.4
+    },
+    {
+      "neighbourhood": "Bourg-En-Lavaux",
+      "listings": 80,
+      "avg_price": 159.6
+    },
+    {
+      "neighbourhood": "Pully",
+      "listings": 74,
+      "avg_price": 135.7
+    },
+    {
+      "neighbourhood": "Prilly",
+      "listings": 71,
+      "avg_price": 142.9
+    }
+  ],
+  "region_stats": [
+    {
+      "region": "Riviera-Pays-d'Enhaut",
+      "listings": 855,
+      "avg_price": 276.14,
+      "avg_rating": 4.77
+    },
+    {
+      "region": "Nyon",
+      "listings": 348,
+      "avg_price": 274.73,
+      "avg_rating": 4.77
+    },
+    {
+      "region": "Aigle",
+      "listings": 1234,
+      "avg_price": 265.85,
+      "avg_rating": 4.81
+    },
+    {
+      "region": "Morges",
+      "listings": 213,
+      "avg_price": 197.55,
+      "avg_rating": 4.82
+    },
+    {
+      "region": "Lavaux-Oron",
+      "listings": 359,
+      "avg_price": 173.68,
+      "avg_rating": 4.79
+    },
+    {
+      "region": "Broye-Vully",
+      "listings": 156,
+      "avg_price": 170.78,
+      "avg_rating": 4.84
+    },
+    {
+      "region": "Ouest lausannois",
+      "listings": 332,
+      "avg_price": 144.7,
+      "avg_rating": 4.73
+    },
+    {
+      "region": "Gros-de-Vaud",
+      "listings": 83,
+      "avg_price": 138.44,
+      "avg_rating": 4.86
+    },
+    {
+      "region": "Lausanne",
+      "listings": 1369,
+      "avg_price": 132.4,
+      "avg_rating": 4.71
+    },
+    {
+      "region": "Jura-Nord vaudois",
+      "listings": 300,
+      "avg_price": 129.57,
+      "avg_rating": 4.81
+    }
+  ],
+  "price_by_room_type": {
+    "entire home/apt": 190.0,
+    "hotel room": 161.0,
+    "private room": 87.0,
+    "shared room": 54.3
+  },
+  "availability_trend": [
+    {
+      "year": 2026,
+      "month": 5,
+      "month_name": "May",
+      "availability_rate": 0.302,
+      "period": "May 2026"
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "month_name": "June",
+      "availability_rate": 0.419,
+      "period": "Jun 2026"
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "month_name": "July",
+      "availability_rate": 0.401,
+      "period": "Jul 2026"
+    },
+    {
+      "year": 2026,
+      "month": 8,
+      "month_name": "August",
+      "availability_rate": 0.462,
+      "period": "Aug 2026"
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "month_name": "September",
+      "availability_rate": 0.486,
+      "period": "Sep 2026"
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "month_name": "October",
+      "availability_rate": 0.526,
+      "period": "Oct 2026"
+    },
+    {
+      "year": 2026,
+      "month": 11,
+      "month_name": "November",
+      "availability_rate": 0.508,
+      "period": "Nov 2026"
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "month_name": "December",
+      "availability_rate": 0.447,
+      "period": "Dec 2026"
+    },
+    {
+      "year": 2027,
+      "month": 1,
+      "month_name": "January",
+      "availability_rate": 0.456,
+      "period": "Jan 2027"
+    },
+    {
+      "year": 2027,
+      "month": 2,
+      "month_name": "February",
+      "availability_rate": 0.422,
+      "period": "Feb 2027"
+    },
+    {
+      "year": 2027,
+      "month": 3,
+      "month_name": "March",
+      "availability_rate": 0.402,
+      "period": "Mar 2027"
+    },
+    {
+      "year": 2027,
+      "month": 4,
+      "month_name": "April",
+      "availability_rate": 0.411,
+      "period": "Apr 2027"
+    },
+    {
+      "year": 2027,
+      "month": 5,
+      "month_name": "May",
+      "availability_rate": 0.408,
+      "period": "May 2027"
+    },
+    {
+      "year": 2027,
+      "month": 6,
+      "month_name": "June",
+      "availability_rate": 0.522,
+      "period": "Jun 2027"
+    }
+  ],
+  "total_reviews": 134598,
+  "host_comparison": [
+    {
+      "host_type": "Superhost",
+      "listings": 1204,
+      "avg_price": 180.09,
+      "avg_rating": 4.86,
+      "avg_reviews": 61.26
+    },
+    {
+      "host_type": "Regular host",
+      "listings": 4045,
+      "avg_price": 222.12,
+      "avg_rating": 4.74,
+      "avg_reviews": 15.04
+    }
+  ]
+}
