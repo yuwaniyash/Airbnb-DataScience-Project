@@ -2,7 +2,6 @@
 
 An end-to-end data engineering and analytics pipeline — taking Inside Airbnb data for the Vaud region of Switzerland from raw ingestion all the way to a live cloud analytics dashboard, using Python, PostgreSQL, Supabase, and Streamlit.
 
-> Built as a technical assignment for Expernetic (Pvt) Ltd, treated as a production-quality end-to-end pipeline rather than a one-off deliverable.
 
 🔗 **[Live Dashboard](https://airbnb-datascience-project.streamlit.app)** &nbsp;|&nbsp; 📦 **Stack:** Python · PostgreSQL · Supabase · Streamlit · Docker · HuggingFace Transformers
 
@@ -218,22 +217,14 @@ streamlit run Streamlit_app.py
 - Single snapshot in time (scraped 23 May 2026) — no historical change tracking
 - ~47.6% of listings show zero estimated occupancy in the trailing 365 days
 
-Full details in the project report (`Expernetic_Task.pdf`), Sections 3.3 and 13.
 
----
 
-## 🔭 Future Improvements
-
-- Remaining NLP tasks: topic modeling, NER, review-quality classification, language pattern analysis
-- Multi-canton/multi-city comparison (pipeline is already config-driven per city)
-- Scheduled ingestion (Airflow) for near-real-time dashboard refresh
-- Predictive pricing/demand-forecasting model on top of the existing star schema
 
 ---
 
 ## 🤖 AI Usage Disclosure
 
-This project made use of Claude (Anthropic) and ChatGPT as technical assistants during development — for pipeline debugging, statistical methodology guidance, sentiment model selection, and report review. Full disclosure, including key prompts and where AI assistance was deliberately *not* used, is in Section 15 of the report.
+This project made use of Claude (Anthropic) and ChatGPT as technical assistants during development — for pipeline debugging, statistical methodology guidance, sentiment model selection, and report review. Full disclosure, including key prompts and where AI assistance was deliberately *not* used.
 
 ---
 
