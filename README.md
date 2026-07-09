@@ -1,4 +1,4 @@
-# Vaud-AnB: Airbnb Data Engineering & Analytics Pipeline
+# Vaud-AirBnB: Airbnb Data Engineering & Analytics Pipeline
 
 An end-to-end data engineering and analytics pipeline — taking Inside Airbnb data for the Vaud region of Switzerland from raw ingestion all the way to a live cloud analytics dashboard, using Python, PostgreSQL, Supabase, and Streamlit.
 
