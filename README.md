@@ -5,6 +5,8 @@ An end-to-end data engineering and analytics pipeline — taking Inside Airbnb d
 
 🔗 **[Live Dashboard](https://airbnb-datascience-project.streamlit.app)** &nbsp;|&nbsp; 📦 **Stack:** Python · PostgreSQL · Supabase · Streamlit · Docker · HuggingFace Transformers
 
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/089e180b-fd4c-42cc-a78e-510d2e5004e4" />
+
 ---
 
 ## 📌 Project Overview
