@@ -26,34 +26,34 @@ This project builds a full analytics pipeline on real Inside Airbnb data for Vau
 - A multilingual BERT model was run on all 134,591 reviews for sentiment scoring
 
 ---
-
 ## 🏗️ Architecture
 
+```
 Raw Data (CSV / CSV.GZ / GeoJSON)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ▼
 Python Ingestion (src/ingestion/ingest.py)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ▼
 PostgreSQL (Docker, local)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ▼
 Validation (profile.py, quality.py)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ▼
 Transformation (transform.py → *_clean tables)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ▼
 Star Schema Modeling (dim_* / fact_* + listings_master)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ▼
 Supabase (cloud Postgres, migrated via migrate_to_supabase.py)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──► Sentiment Analysis (Google Colab, T4 GPU) ──► review_sentiment table
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼
+        │
+        ├──► Sentiment Analysis (Google Colab, T4 GPU) ──► review_sentiment table
+        │
+        ▼
 Streamlit Dashboard (Deployed on Streamlit Community Cloud)
-
+```
 This is an **ELT** pipeline, not ETL — raw data lands in Postgres almost untouched, with all cleaning and standardization happening afterward in `transform.py`. Raw tables are kept alongside their `*_clean` counterparts for a full audit trail.
 
 ---
